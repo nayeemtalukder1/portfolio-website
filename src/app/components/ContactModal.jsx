@@ -56,9 +56,9 @@ export default function ContactModal({ onClose }) {
 
             {/* CONTACT CARDS */}
             {[
-              { Icon: MapPin, label: "Location", value: "Tejgaon, Dhaka", href: "https://maps.google.com/?q=Tejgaon,Dhaka" },
-              { Icon: Mail, label: "Email", value: "sheikhhasibubalam758@gmail.com", href: "mailto:sheikhhasibubalam758@gmail.com" },
-              { Icon: Phone, label: "Phone", value: "+8801949219333 (WhatsApp)", href: "https://wa.me/8801949219333" },
+              { Icon: MapPin, label: "Location", value: "Mymensingh, Bangladesh", href: "https://maps.google.com/?q=Mymensingh,Bangladesh" },
+              { Icon: Mail, label: "Email", value: "nayeemtalukder882@gmail.com", href: "mailto:nayeemtalukder882@gmail.com" },
+              { Icon: Phone, label: "Phone", value: "+8801969148410 (WhatsApp)", href: "https://wa.me/8801969148410" },
             ].map((c, i) => (
               <a
                 key={i}

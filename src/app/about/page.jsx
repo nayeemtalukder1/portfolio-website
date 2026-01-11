@@ -161,7 +161,7 @@ export default function AboutPage() {
                     VISIT MY PORTFOLIO & HIRE ME
                   </p>
 
-                  <h1 className="text-4xl sm:text-5xl md:text-7xl 
+                  <h1 className="text-4xl sm:text-5xl md:text-6xl 
                                  font-black text-green-400 
                                  mb-4 md:mb-6">
                     About Me
