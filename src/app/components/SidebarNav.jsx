@@ -12,7 +12,6 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { FloatingWhatsApp } from 'react-floating-whatsapp'
 
 const navItems = [
   { icon: Home, label: "Home", href: "/" },
@@ -28,26 +27,6 @@ export default function SidebarNav() {
 
   return (
     <>
-      <FloatingWhatsApp
-  phoneNumber="+8801969148410"
-  accountName="Nayeem Talukder"
-  avatar="/nayeem_2.png"
-  statusMessage="Available 24 * 7"
-  position="left"
-  styles={{
-    left: "16px",
-    bottom: "16px",
-  }}
-  chatboxStyle={{
-    color: "#000",       // chat text
-  }}
-  inputStyle={{
-    color: "#000",       // input text
-  }}
-  headerStyle={{
-    color: "#000",       // header text
-  }}
-/>
 
       {/* MOBILE BOTTOM NAV – ZERO MARGIN, FLUSH TO BOTTOM, SUPER ROUNDED */}
       <div className="fixed inset-x-0 bottom-0 z-50 sm:hidden">
